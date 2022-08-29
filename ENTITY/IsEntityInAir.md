@@ -8,6 +8,7 @@ ns: ENTITY
 BOOL IS_ENTITY_IN_AIR(Entity entity);
 ```
 
+Strangely enough, this value returns a false if the entity is on the ground, but a 1 if the entity if it's in the air! 
 
 ## Parameters
 * **entity**: 
